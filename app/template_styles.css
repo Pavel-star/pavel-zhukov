@@ -1,0 +1,49 @@
+*{
+    font-family: 'Myriad Pro';
+    /**/
+}
+.bg-blue{
+    background-color:#1B89BD;
+}
+.bg-black_gradient{
+    background: linear-gradient( to bottom , #5A5A5A, #2E2E30 ); 
+}
+.bg-black{
+    background-color:#2C2C2C;
+}
+.bg-grey{
+    background-color:#F1F4F8 !important;
+}
+.bg-dark{
+    background-color:#3E3E40 !important;
+}
+.color-white{
+    color:#FFF;
+}
+.color-blue{
+    color:#39a5f9;
+}
+.color-grey{
+    color:#757575;
+}
+.map-bg-wrapper{
+    position:relative;
+}
+.map-bg{
+    height:100%;
+    width:100%;
+    position:absolute;
+    left:0px;
+    top:0px;
+    z-index:100;
+    background-color:rgba(0,0,0,0.2);
+
+}
+.border-color-blue{
+    border-color:#00ACEC;
+}
+.border-width-bold{
+    border-width:2px; 
+}
+.bl-0{ border-left: 0px; }
+.br-0{ border-right: 0px;}

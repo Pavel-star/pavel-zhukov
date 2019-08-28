@@ -1,0 +1,18 @@
+.sections-list{
+
+}
+.sections-list__item{
+    background-color:#EDF0F4;
+}
+.sections-list__item_bg_blue-round{
+    background-image: url('/images/section_round.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.section-list__title{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.sections-list__image{
+    height:80px;
+}

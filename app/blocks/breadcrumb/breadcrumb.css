@@ -1,0 +1,12 @@
+ .breadcrumb{
+   background-color: #fff;
+ }
+ .breadcrumb .breadcrumb-item{
+   color:#1081b1;
+ }
+ .breadcrumb .breadcrumb-item a{
+   color:#464647;
+ }
+ .breadcrumb-item + .breadcrumb-item::before{
+    content:'-';
+ }

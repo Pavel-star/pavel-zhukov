@@ -1,0 +1,21 @@
+.pagination {
+    padding-left: 0rem !important;
+}
+.pagination .page-link{
+    color:#4e4e50;
+    font-weight: bold;
+}
+.page-item:hover .page-link,
+.page-item.active .page-link{
+    background-color: #00ACEC;
+    border-color: #00ACEC;
+    color:#4e4e50;
+}
+.pagination .page-link .fas{
+    /*font-size: 1.1rem;*/
+    line-height: 1.25;
+    color:#00ACEC;
+}
+.page-item:hover .page-link .fas{
+    color:#FFF; 
+}

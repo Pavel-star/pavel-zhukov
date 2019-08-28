@@ -1,0 +1,28 @@
+.product-list{
+
+}
+.product-list__item{
+    color:#454546;
+}
+.product-list__title{
+   text-transform: uppercase;
+    font-family: 'Myriad Pro';
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 1.1rem;
+}
+.product-list__image{
+    height:170px;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.product-list__subtitle{
+    font-size: 0.8rem;
+}
+.product-list__description{
+    font-size: 0.9rem;
+}
+.product-list__button_color_blue{
+    background-color:#00ACEC;
+    color:#fff;
+}

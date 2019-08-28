@@ -1,0 +1,15 @@
+.tabs__list{
+    padding-left: 0rem !important;
+    border-bottom: 1px solid #00ACEC !important;
+}
+.tabs__link{
+    border:1px solid #00ACEC !important;
+    border-radius: 0px !important;
+    color:#454546 !important;
+}
+.tabs__link.active{
+    background-color:#E5F0F6 !important;
+}
+.tabs__content{
+    line-height: 1.2rem;
+}

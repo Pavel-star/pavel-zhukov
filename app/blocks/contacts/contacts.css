@@ -1,0 +1,29 @@
+.contacts .contacts__item{
+    line-height: 20px;
+    font-size: 1.1rem; 
+    background-repeat: no-repeat;
+    line-height: 1.4rem;
+    background-position: left center;
+    color:#464647;
+    font-weight: normal;
+	font-style: normal;
+}
+.contacts .contacts__item--clock{
+    padding-left: 3rem;
+    background-image:url('/images/clock-icon.png');
+}
+.contacts .contacts__item--location{
+    padding-left: 3rem;
+    background-image:url('/images/location-icon.png');
+}
+ 
+ 
+.contacts a{
+    color:#464647;
+}
+@media screen and (max-width:960px){
+    .contacts .contacts__item{
+        font-size: 0.9rem;
+        line-height: 1rem;
+    }
+}

@@ -1,0 +1,10 @@
+
+@media screen and (max-width:960px){
+    .logotype{}
+    .logotype .logotype__image{
+        width: 100%;
+    }
+    .logotype__name{
+        font-size: 1.4rem;
+    }
+}

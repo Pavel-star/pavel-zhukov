@@ -1,0 +1,35 @@
+.double-slider{
+
+}
+.double-slider-master__item{
+    border: 2px solid #13A4E1;
+    height: auto;
+     
+    background-position:center;
+    background-size:50%;
+    background-repeat: no-repeat;
+}
+.double-slider-master__item  .double-slider-master__base{
+    padding-bottom: 80%;
+}
+/*
+.double-slider-master__image{
+    margin:0 auto;
+}*/
+.double-slider-slave__item{
+    border: 1px solid #D7D7D7;
+    background-position:center;
+    background-size:50%;
+    background-repeat: no-repeat;
+    height: auto;
+    cursor:pointer;
+}
+.double-slider-slave__item.slick-current{
+    border: 1px solid #13A4E1;
+}
+.double-slider-slave__base{
+    padding-bottom: 100%;
+}
+.double-slider-slave__image{
+    margin: 0 auto;
+}

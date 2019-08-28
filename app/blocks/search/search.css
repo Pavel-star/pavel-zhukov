@@ -1,0 +1,30 @@
+.search{
+    background-color: #182857;
+    
+}
+.search.search__theme--black{
+    background: linear-gradient( to bottom , #474747, #2E2E30 ); 
+}
+.search .search__input{
+    padding: 0.8rem 1.3rem;
+    background-color: #182857;
+    color:#fff;
+    border:0px;
+    font-weight: 300;
+}
+.search.search__theme--black .search__input{
+    background: linear-gradient( to bottom , #474747, #2E2E30 ); 
+}
+ 
+.search .search__submit{
+    padding: 0.8rem 1.3rem;
+    border-radius:0px;
+    border:0px;
+    background-size: 20px;
+    background-image: url('/images/search.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.search .search__submit.search__submit__color--white{
+    background-image: url('/images/search-white.png');
+}

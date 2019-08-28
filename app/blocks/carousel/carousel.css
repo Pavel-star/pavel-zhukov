@@ -1,0 +1,27 @@
+.carousel{
+
+}
+.carousel .carousel-control-next i,
+.carousel .carousel-control-prev i{
+    color:#00ACEC;
+    font-size:3rem;
+}
+.carousel__item-info{
+    /*background-color: #343348;*/
+}
+.carousel__item-info__title{
+    color: #fff;
+    font-size: 3rem;
+    line-height: 2rem;
+    font-weight: 900;
+    font-family: 'BebasNeue'
+}
+.carousel__item-info hr{
+    border-color:#fff;
+}
+.carousel-caption{
+    text-align: left;
+}
+.carousel.border_color_blue{
+    border:1px solid #00ACEC;
+}

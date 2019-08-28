@@ -1,0 +1,25 @@
+
+@import "/blocks/header/header.css" ;
+@import "/blocks/contacts/contacts.css";
+@import "/blocks/basket-mini/basket-mini.css";
+@import "/blocks/button/button.css";
+@import "/blocks/search/search.css";
+@import "/blocks/menu/menu.css";
+@import "/blocks/content/content.css";
+@import "/blocks/carousel/carousel.css";
+@import "/blocks/sections-list/sections-list.css";
+@import "/blocks/methods-list/methods-list.css";
+@import "/blocks/advantages/advantages.css";
+@import "/blocks/double-gallery/double-gallery.css";
+@import "/blocks/carousel-slider/carousel-slider.css";
+@import "/blocks/news-list/news-list.css";
+@import "/blocks/footer/footer.css";
+@import "/blocks/logotype/logotype.css";
+@import "/blocks/vertical-nav/vertical-nav.css";
+@import "/blocks/breadcrumb/breadcrumb.css";
+@import "/blocks/pagination/pagination.css";
+@import "/blocks/product-list/product-list.css";
+@import "/blocks/select/select.css";
+@import "/blocks/portfolio/portfolio.css";
+@import "/blocks/form/form.css";
+@import "/blocks/double-slider/double-slider.css";

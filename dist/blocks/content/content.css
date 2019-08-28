@@ -1,0 +1,46 @@
+.main-content{
+    color:#454546;
+}
+.main-content p{
+    font-size: .9rem;
+    color:#454546;
+}
+.main-content ul li ,
+.main-content ul{
+    font-size: .9rem;
+    color:#454546;
+}
+.main-content ul{
+    padding-left: 1rem;
+}
+.main-content ul li::marker{
+    color:#15CDF6;
+}
+.content  .content__title{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'BebasNeue';
+    text-transform:uppercase;
+    color:#454546;
+}
+.content .content__title.content__title_theme_underline:after{
+    height: 3px;
+    width: 100px;
+    background: #0DCEF3;
+    content: ' ';
+    display: block;
+    margin: 10px auto;
+}
+.content__title_color_white{
+    color:#fff !important   ;
+}
+.transform_upcase{
+    text-transform:uppercase;
+}
+.bg-contain{
+    background-size: contain;
+}
+.bg-cover{
+    background-size: cover;
+}
+ 

@@ -1,0 +1,30 @@
+.advantages{
+    background-image: url('/images/advanteges.jpg');
+    background-position: top;
+    color: #fff;
+    background-clip: border-box;
+ /*****T */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
+
+.advantages .advantages__item{
+    background-color:#13A4E1;
+    height: 100%;
+}
+.advantages__title{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.advantages .advantages__item .advantages__image{
+
+}
+.advantages .advantages__item .advantages__description{
+    line-height: 1.2rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.advantages__description p{
+    margin-bottom: 0.5rem;
+}

@@ -1,0 +1,18 @@
+.double-slider{
+
+}
+.double-slider-master__item{
+    border: 1px solid #13A4E1;
+    height: 400px;
+}
+
+.double-slider-master__image{
+    margin:0 auto;
+}
+.double-slider-slave__item{
+    border: 1px solid #D7D7D7;
+    height: 100px;
+}
+.double-slider-slave__image{
+    margin: 0 auto;
+}

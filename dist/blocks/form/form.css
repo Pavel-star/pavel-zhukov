@@ -1,0 +1,11 @@
+.form .form__input {
+    font-weight: 300;
+    border: none;
+    padding: 0.675rem .75rem;
+}
+.form .form__input.form__input_border_blue{
+    border-bottom:2px solid #00B6ED;
+}
+.form .form__input.form__input_rounded_none{
+    border-radius:0px;
+}

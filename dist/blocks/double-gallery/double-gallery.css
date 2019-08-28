@@ -1,0 +1,20 @@
+.double-gallery{
+
+}
+.slider-head__item{
+    border:1px solid #13A4E1;
+}
+.slider-small__wrapp{
+    border:1px solid #13A4E1;
+    height: 100%;
+    cursor:pointer;
+}
+.slider-small__image{
+   
+}
+.slider-head__image{
+    margin:0 auto;
+}
+.slider-small__wrapp.active{
+    border-width: 2px;
+}

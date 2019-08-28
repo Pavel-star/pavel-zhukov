@@ -1,0 +1,19 @@
+.methods-list{
+
+}
+.methods-list__item{
+    background-color:#EDF0F4;
+    height: 100%;
+}
+.methods-list__title{
+    font-family: 'Myriad Pro';
+    font-size: 1rem;
+    font-weight: bold;
+}
+.methods-list__preview{
+    font-size: 0.8rem;
+}
+.methods-list__image{
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,18 @@
+*{
+    font-family: 'Myriad Pro';
+}
+.bg-blue{
+    background-color:#1B89BD;
+}
+.bg-black_gradient{
+    background: linear-gradient( to bottom , #5A5A5A, #2E2E30 ); 
+}
+.bg-black{
+    background-color:#2C2C2C;
+}
+.bg-dark{
+    background-color:#3E3E40 !important;
+}
+.color-white{
+    color:#FFF;
+}

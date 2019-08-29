@@ -66,7 +66,10 @@
 .vertical-nav .nav-item ul{
     padding: 0rem 0 0rem 1rem;
 }
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 992px) {
+    #sectionCollapse{
+        display:block;
+    }
     .vertical-nav > .nav-item{
         /*width:48%;*/
     }

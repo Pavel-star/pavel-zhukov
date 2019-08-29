@@ -1,5 +1,5 @@
 <html lang="en">
-<head>
+<head manifest="manifest.appcache">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -114,60 +114,64 @@
     </nav>
 
         <div class="row">
-            <div class="col-lg-3 col-md-12">
-            
-<ul  class="nav vertical-nav flex-column mb-4">
-    <li  class="menu-item  current-menu-item   current_page_item menu-item-has-children  nav-item"><a href="" aria-current="page" class="nav-link">Сувениры для печати</a>
-        <ul class="sub-menu nav">
-    	<li  class="menu-item nav-item"><a href="" class="nav-link">Кружки</a></li>
-            <li  class="menu-item nav-item"><a href="" class="nav-link">Футболки</a></li>
-            <li  class="menu-item nav-item"><a href="" class="nav-link">Бейсболки</a></li>
-            <li  class="menu-item nav-item"><a href="" class="nav-link">Коврики для мыши</a></li>
-            <li  class="menu-item nav-item"><a href="" class="nav-link">Подушки</a></li>
-            <li  class="menu-item nav-item"><a href="" class="nav-link">Разделочные доски</a></li>
-            <li  class="menu-item nav-item"><a href="" class="nav-link">Чехлы для iPhone</a></li>
-            <li  class="menu-item nav-item"><a href="" class="nav-link">Чехлы для iPad</a></li>
-            <li  class="menu-item nav-item"><a href="" class="nav-link">Чехлы для смартфонов</a></li>
-            <li  class="menu-item nav-item"><a href="" class="nav-link">Чехлы для ноутбуков</a></li>
-            <li  class="menu-item nav-item"><a href="" class="nav-link">Тарелки</a></li>
-            <li  class="menu-item nav-item"><a href="" class="nav-link">Термосы и фляжки</a></li>
-            <li  class="menu-item nav-item"><a href="" class="nav-link">Для авто</a></li>
-            <li  class="menu-item nav-item"><a href="" class="nav-link">Зеркальца</a></li>
-            <li  class="menu-item nav-item"><a href="" class="nav-link">Магниты</a></li>
-            <li  class="menu-item nav-item"><a href="" class="nav-link">Значки</a></li>
-            <li  class="menu-item nav-item"><a href="" class="nav-link">Сумки и кошельк</a></li>
-            <li  class="menu-item nav-item"><a href="" class="nav-link">Часы</a></li>
-            <li  class="menu-item nav-item"><a href="" class="nav-link">Полотенца</a></li>
-            <li  class="menu-item nav-item"><a href="" class="nav-link">Фартуки</a></li>
-            <li  class="menu-item nav-item"><a href="" class="nav-link">Таблички на двери</a></li>
-            <li  class="menu-item nav-item"><a href="" class="nav-link">Фотокамни</a></li>
-            <li  class="menu-item nav-item"><a href="" class="nav-link">Плитка керамическая</a></li>
-            <li  class="menu-item nav-item"><a href="" class="nav-link">Пазлы</a></li>
-            <li  class="menu-item nav-item"><a href="" class="nav-link">Брелоки</a></li>
-            <li  class="menu-item nav-item"><a href="" class="nav-link">Маски для сна</a></li>
-            <li  class="menu-item nav-item"><a href="" class="nav-link">Шарфы и платки</a></li>
-            <li  class="menu-item nav-item"><a href="" class="nav-link">Варежки и прихватки</a></li>
-            <li  class="menu-item nav-item"><a href="" class="nav-link">Визитницы</a></li>
-            <li  class="menu-item nav-item"><a href="" class="nav-link">Ежедневники</a></li>
-            <li  class="menu-item nav-item"><a href="" class="nav-link">Салфетки для очков</a></li>
-            <li  class="menu-item nav-item"><a href="" class="nav-link">Слюнявчики</a></li>
-            <li  class="menu-item nav-item"><a href="" class="nav-link">Чехлы для бутылок</a></li>
-            <li  class="menu-item nav-item"><a href="" class="nav-link">Для офиса</a></li>
-            <li  class="menu-item nav-item"><a href="" class="nav-link">Медали</a></li>
-            <li  class="menu-item nav-item"><a href="" class="nav-link">Таблетницы</a></li>
-        </ul>
-    </li>
-    <li  class="menu-item  menu-item-has-children      nav-item"><a href="" aria-current="page" class="nav-link">Упаковка</a></li>
-    <li  class="menu-item  menu-item-has-children       nav-item"><a href="" aria-current="page" class="nav-link">Нанесение</a></li>
-</ul>
-            
+            <div class="col-lg-3 col-md-12 ">
+<div class="text-center my-4 d-md-block d-lg-none">
+            <button class="button  button__color--blue-ligth px-4 py-2" type="button" data-toggle="collapse" data-target="#sectionCollapse" aria-expanded="false" aria-controls="sectionCollapse">
+Разделы каталога
+  </button>  </div>   
+ <div class="collapse " id="sectionCollapse"> 
+    <ul  class="nav vertical-nav flex-column mb-4">
+        <li  class="menu-item  current-menu-item   current_page_item menu-item-has-children  nav-item"><a href="" aria-current="page" class="nav-link">Сувениры для печати</a>
+            <ul class="sub-menu nav">
+        	<li  class="menu-item nav-item"><a href="" class="nav-link">Кружки</a></li>
+                <li  class="menu-item nav-item"><a href="" class="nav-link">Футболки</a></li>
+                <li  class="menu-item nav-item"><a href="" class="nav-link">Бейсболки</a></li>
+                <li  class="menu-item nav-item"><a href="" class="nav-link">Коврики для мыши</a></li>
+                <li  class="menu-item nav-item"><a href="" class="nav-link">Подушки</a></li>
+                <li  class="menu-item nav-item"><a href="" class="nav-link">Разделочные доски</a></li>
+                <li  class="menu-item nav-item"><a href="" class="nav-link">Чехлы для iPhone</a></li>
+                <li  class="menu-item nav-item"><a href="" class="nav-link">Чехлы для iPad</a></li>
+                <li  class="menu-item nav-item"><a href="" class="nav-link">Чехлы для смартфонов</a></li>
+                <li  class="menu-item nav-item"><a href="" class="nav-link">Чехлы для ноутбуков</a></li>
+                <li  class="menu-item nav-item"><a href="" class="nav-link">Тарелки</a></li>
+                <li  class="menu-item nav-item"><a href="" class="nav-link">Термосы и фляжки</a></li>
+                <li  class="menu-item nav-item"><a href="" class="nav-link">Для авто</a></li>
+                <li  class="menu-item nav-item"><a href="" class="nav-link">Зеркальца</a></li>
+                <li  class="menu-item nav-item"><a href="" class="nav-link">Магниты</a></li>
+                <li  class="menu-item nav-item"><a href="" class="nav-link">Значки</a></li>
+                <li  class="menu-item nav-item"><a href="" class="nav-link">Сумки и кошельк</a></li>
+                <li  class="menu-item nav-item"><a href="" class="nav-link">Часы</a></li>
+                <li  class="menu-item nav-item"><a href="" class="nav-link">Полотенца</a></li>
+                <li  class="menu-item nav-item"><a href="" class="nav-link">Фартуки</a></li>
+                <li  class="menu-item nav-item"><a href="" class="nav-link">Таблички на двери</a></li>
+                <li  class="menu-item nav-item"><a href="" class="nav-link">Фотокамни</a></li>
+                <li  class="menu-item nav-item"><a href="" class="nav-link">Плитка керамическая</a></li>
+                <li  class="menu-item nav-item"><a href="" class="nav-link">Пазлы</a></li>
+                <li  class="menu-item nav-item"><a href="" class="nav-link">Брелоки</a></li>
+                <li  class="menu-item nav-item"><a href="" class="nav-link">Маски для сна</a></li>
+                <li  class="menu-item nav-item"><a href="" class="nav-link">Шарфы и платки</a></li>
+                <li  class="menu-item nav-item"><a href="" class="nav-link">Варежки и прихватки</a></li>
+                <li  class="menu-item nav-item"><a href="" class="nav-link">Визитницы</a></li>
+                <li  class="menu-item nav-item"><a href="" class="nav-link">Ежедневники</a></li>
+                <li  class="menu-item nav-item"><a href="" class="nav-link">Салфетки для очков</a></li>
+                <li  class="menu-item nav-item"><a href="" class="nav-link">Слюнявчики</a></li>
+                <li  class="menu-item nav-item"><a href="" class="nav-link">Чехлы для бутылок</a></li>
+                <li  class="menu-item nav-item"><a href="" class="nav-link">Для офиса</a></li>
+                <li  class="menu-item nav-item"><a href="" class="nav-link">Медали</a></li>
+                <li  class="menu-item nav-item"><a href="" class="nav-link">Таблетницы</a></li>
+            </ul>
+        </li>
+        <li  class="menu-item  menu-item-has-children      nav-item"><a href="" aria-current="page" class="nav-link">Упаковка</a></li>
+        <li  class="menu-item  menu-item-has-children       nav-item"><a href="" aria-current="page" class="nav-link">Нанесение</a></li>
+    </ul>
+</div>           
             
       </div>
       <div class="col-lg-9 col-md-12 main-content">
       <!--content-->
     
         <div class="row">
-            <div class="col-lg-6 ">
+            <div class="col-lg-6 col-md-6">
                  
                     <div class="double-slider">
                         <div class="double-slider-master">
@@ -186,7 +190,7 @@
                         </div>
                     </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <!--contentcard-->
                 <h1 class="content__title  text-left">Кружка цветная внутри и ручка, синяя</h1>
                 <div class="row">
@@ -202,9 +206,13 @@
                         <button class="btn btn-outline-secondary bl-0 border-color-blue border-width-bold" type="button" id="button-addon1">+</button>
                       </div>
                     </div>
+                    <div class="col-lg-12">
+                        <div>Стоимость:<span class="font-weight-bold">119</span> руб./шт.</div>
+                        <button class="button button__color--blue-ligth mt-1 px-5 py-0">Заказать</button>
+                    </div>
                 </div>
-                <div>Стоимость:<span class="font-weight-bold">119</span> руб./шт.</div>
-                <button class="button button__color--blue-ligth mt-1 px-5 py-0">Заказать</button>
+                 
+
                 <div class="small-text mt-4 mb-3 color-grey">
                 <p class="mb-0">Обращаем Ваше внимание, что цена указана за изделие+печать!</p>
                 <p class="mb-0">*Количество цветов на стоимость не влияет.</p>
@@ -282,7 +290,7 @@
            
            <?for($i = 1 ; $i<5; $i++ ):?>
 
-           <div class="col-lg-3 col-md-4 col-sm-6 col-12 pb-3 px-2">
+           <div class="col-lg-3 col-md-6 col-sm-6 col-12 pb-3 px-2">
                <div class="product-list__item  py-2  border">
                    <div class="product-list__title text-center mt-2 px-2">КРУЖКА ЦВЕТНАЯ ВНУТРИ И РУЧКА, ГОЛУБАЯ</div>
                    <div class="product-list__image " style="background-image:url('uploads/product.jpg')" ></div>

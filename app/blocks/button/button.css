@@ -75,7 +75,8 @@
     color:#454546;
 }
 @media screen and (max-width:960px){
-    /*.button{
+   .footer .button,
+   .header .button{
         font-size: 0.8rem;
-    }*/
+    }
 }

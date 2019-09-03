@@ -5,7 +5,7 @@
     box-shadow: 0 0 4px 3px #EDEDEF;
 }
 .news-list .news-list__item .news-list__image{
-    height:100%;
+    height:200px;
     min-height:150px;
     background-position: center top;
     background-repeat: no-repeat;
